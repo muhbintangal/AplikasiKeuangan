@@ -152,7 +152,7 @@
               <Font name="Calibri" size="12" style="0"/>
             </Property>
             <Property name="horizontalAlignment" type="int" value="0"/>
-            <Property name="text" type="java.lang.String" value="Log In to your account to continue"/>
+            <Property name="text" type="java.lang.String" value="Create your account"/>
           </Properties>
         </Component>
         <Component class="javax.swing.JTextField" name="TfEmail">

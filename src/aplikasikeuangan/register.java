@@ -73,7 +73,7 @@ public class register extends javax.swing.JFrame {
 
         jLabel3.setFont(new java.awt.Font("Calibri", 0, 12)); // NOI18N
         jLabel3.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
-        jLabel3.setText("Log In to your account to continue");
+        jLabel3.setText("Create your account");
 
         TfEmail.setText("name");
         TfEmail.setBorder(new javax.swing.border.LineBorder(new java.awt.Color(39, 9, 193), 1, true));
