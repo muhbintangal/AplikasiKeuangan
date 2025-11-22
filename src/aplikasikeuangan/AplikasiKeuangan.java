@@ -15,7 +15,7 @@ public class AplikasiKeuangan {
      */
     public static void main(String[] args) {
         
-        System.out.println("Jidun ngeselin");
+        System.out.println("OOOOOOOOOOOO");
         // TODO code application logic here
     }
     
