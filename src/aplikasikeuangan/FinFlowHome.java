@@ -39,10 +39,10 @@ public class FinFlowHome extends JFrame {
         mainContainer.add(createHeader(), BorderLayout.NORTH);
 
         // 2. CONTENT (Grid Kartu)
-        mainContainer.add(createContentGrid(), BorderLayout.CENTER);
 
         // 3. FOOTER (Tombol Plus)
-        mainContainer.add(createFooter(), BorderLayout.SOUTH);
+        mainContainer.add(createFooter(), BorderLayout.SOUTH);        mainContainer.add(createContentGrid(), BorderLayout.CENTER);
+
 
         add(mainContainer);
     }
@@ -122,7 +122,7 @@ public class FinFlowHome extends JFrame {
     }
 
     // --- IMPLEMENTASI KARTU ---
-
+    
     // 1. KARTU KIRI (MODIFIKASI: 3 TOMBOL)
     private RoundedPanel createLeftCard() {
         RoundedPanel panel = new RoundedPanel(30);
@@ -216,7 +216,7 @@ public class FinFlowHome extends JFrame {
         JPanel textPanel = new JPanel(new GridLayout(2, 1));
         textPanel.setOpaque(false);
         
-        JLabel title = new JLabel("Budget for November");
+        JLabel title = new JLabel("Balance");
         title.setFont(new Font("SansSerif", Font.BOLD, 18));
         title.setForeground(COLOR_TEXT_DARK);
         
